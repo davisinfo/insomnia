@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca38667b64
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca0f05707e
+modified: 1661756601926
+created: 1661756601926
+url: "{{ base_url }}/partnergroup/{{ id }}/links/{{ linksId }}"
+name: Updates specific Links for a Partnergroup
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756601926
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcad58c2c7e
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca96423d96
+modified: 1661756599805
+created: 1661756599805
+url: "{{ base_url }}/videogroup/{{ id }}"
+name: Find Videogroup by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756599805
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

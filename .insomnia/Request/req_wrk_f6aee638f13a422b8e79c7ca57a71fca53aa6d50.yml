@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca53aa6d50
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcacd41b4f5
+modified: 1661756600278
+created: 1661756600278
+url: "{{ base_url }}/textblock/{{ id }}"
+name: Find Textblock by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756600278
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

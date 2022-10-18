@@ -1,0 +1,55 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcabd8af0ab
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcaf6f699c8
+modified: 1661756599842
+created: 1661756599842
+url: "{{ base_url }}/vacancygroup"
+name: Add a new Vacancygroup
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "object": "string",
+      "id": 0,
+      "revision": "string",
+      "version_date": 0,
+      "owner": 0,
+      "state": "string",
+      "language": "string",
+      "title": "string",
+      "seq": 0,
+      "insert": "string",
+      "is_dummy": "string",
+      "subitems": "string",
+      "pagebuilder_use": "string",
+      "content_pattern": "string",
+      "kind": "string",
+      "item_url": "string",
+      "Refines": "string",
+      "RefinesByGroup": "string",
+      "Images": "string",
+      "encoded_id": "string",
+      "active_extensions": "string",
+      "custom_screen_folder": "string"
+    }
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756599842
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

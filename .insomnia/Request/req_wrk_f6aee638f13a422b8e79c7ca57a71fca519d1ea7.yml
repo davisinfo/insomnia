@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca519d1ea7
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcafd1a15b7
+modified: 1661756602201
+created: 1661756602201
+url: "{{ base_url }}/newsgroup/{{ id }}"
+name: Find Newsgroup by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756602201
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,10 @@
+_id: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca8cae6061
+type: RequestGroup
+parentId: wrk_f6aee638f13a422b8e79c7ca57a71fca
+modified: 1661756605165
+created: 1661756605165
+name: usergroup
+description: The Usergroup entity
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1661756605165

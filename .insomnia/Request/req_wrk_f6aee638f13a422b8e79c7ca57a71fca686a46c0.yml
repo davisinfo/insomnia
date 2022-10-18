@@ -1,0 +1,61 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca686a46c0
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca4baa90c0
+modified: 1661756603694
+created: 1661756603694
+url: "{{ base_url }}/dataimporter"
+name: Add a new DataImporter
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "object": "string",
+      "owner": 0,
+      "datetime_start": "string",
+      "datetime_end": "string",
+      "count_total": "string",
+      "count_success": "string",
+      "count_fail": "string",
+      "import_module": "string",
+      "import_table": "string",
+      "import_filename": "string",
+      "import_type": "string",
+      "firstrow_column": "string",
+      "status": "string",
+      "datetime_add": "string",
+      "insert": "string",
+      "is_dummy": "string",
+      "subitems": "string",
+      "pagebuilder_use": "string",
+      "content_pattern": "string",
+      "kind": "string",
+      "item_url": "string",
+      "id": 0,
+      "Refines": "string",
+      "RefinesByGroup": "string",
+      "Images": "string",
+      "encoded_id": "string",
+      "active_extensions": "string",
+      "custom_screen_folder": "string"
+    }
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756603694
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

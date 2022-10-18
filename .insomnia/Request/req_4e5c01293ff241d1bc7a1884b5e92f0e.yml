@@ -1,0 +1,37 @@
+_id: req_4e5c01293ff241d1bc7a1884b5e92f0e
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcad5491e7e
+modified: 1666003276410
+created: 1666003257932
+url: "{{ base_url }}/register"
+name: Register user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+
+    }
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: true
+    value: jwt
+    id: pair_a629869a838d433581b1a9128aa9bb87
+  - name: Content-Type
+    value: application/json
+    id: pair_26d8d90e5cc34c7ab705c37dc25c01b9
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+  disabled: true
+metaSortKey: -1661756604573.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

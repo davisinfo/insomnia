@@ -1,0 +1,99 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcab7875df1
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcad5491e7e
+modified: 1664362751566
+created: 1661756604559
+url: "{{ base_url }}/checkout/{{ id }}"
+name: Updates specific value for Checkout
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "object": "string",
+      "site_id": "string",
+      "language": "string",
+      "version_date": 0,
+      "ordernumber": "string",
+      "order_type": "string",
+      "order_date": "string",
+      "order_state": "string",
+      "currency_iso_code": "string",
+      "company_id": "string",
+      "contact_id": "string",
+      "contact_delivery": "string",
+      "contact_billing": "string",
+      "country_id": "string",
+      "shipping_id": "string",
+      "address_delivery": "string",
+      "address_billing": "string",
+      "gift_service": "string",
+      "gift_message": "string",
+      "payment_id": "string",
+      "payment_status": "string",
+      "payment_testmode": "string",
+      "use_bonuspoints": "string",
+      "used_bonuspoints": "string",
+      "comment": "string",
+      "create_account": "string",
+      "agree_conditions": "string",
+      "subscribe_newsletter": "string",
+      "is_paid": "string",
+      "is_completed": "string",
+      "is_confirmed": "string",
+      "is_shipped": "string",
+      "is_printed": "string",
+      "is_sync": "string",
+      "myparcel_exported": "string",
+      "kiyoh_receive": "string",
+      "kiyoh_sent": "string",
+      "vat_incl": "string",
+      "trackingcode": "string",
+      "trackingdata": "string",
+      "shipping_location_id": "string",
+      "parcelware_ready": "string",
+      "parcelware_exported": "string",
+      "retour_synced": "string",
+      "ShippingEntity": "string",
+      "CurrencyEntity": "string",
+      "PaymentEntity": "string",
+      "ShippingLocationEntity": "string",
+      "metadata": "string",
+      "countryIdByAddress": "string",
+      "insert": "string",
+      "is_dummy": "string",
+      "subitems": "string",
+      "pagebuilder_use": "string",
+      "content_pattern": "string",
+      "kind": "string",
+      "item_url": "string",
+      "id": 0,
+      "Refines": "string",
+      "RefinesByGroup": "string",
+      "Images": "string",
+      "encoded_id": "string",
+      "active_extensions": "string",
+      "custom_screen_folder": "string"
+    }
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+    id: pair_de14de2209d340c4be8895b12a4bb497
+  - name: Content-Type
+    value: application/json
+    id: pair_e15791ceeb794cdb88394b0a3dd4dbf4
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756604559
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,27 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca7b6a33ab
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcabd370d1b
+modified: 1661756600446
+created: 1661756600446
+url: "{{ base_url }}/step"
+name: Get collection of StepEntities
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756600446
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

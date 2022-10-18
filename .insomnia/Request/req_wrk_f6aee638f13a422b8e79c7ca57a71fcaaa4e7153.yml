@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcaaa4e7153
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcacaf322f0
+modified: 1661756603328
+created: 1661756603328
+url: "{{ base_url }}/employee/{{ id }}/images/{{ imagesId }}"
+name: Delete Images for a Employee
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756603328
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

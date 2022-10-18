@@ -1,0 +1,35 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca8dfba875
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcad5491e7e
+modified: 1664974093717
+created: 1661756604565
+url: "{{ base_url }}/checkout/{{ id }}"
+name: Updates Checkout
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    }
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: jwt
+    id: pair_91e6a56d785149e2bf241beda260ed14
+  - name: Content-Type
+    value: application/json
+    id: pair_2de457ad10dc4e7b972616d6593e8e6e
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756604565
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcab95b031a
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca8cae6061
+modified: 1661756599938
+created: 1661756599938
+url: "{{ base_url }}/usergroup/{{ id }}/links/{{ linksId }}"
+name: Delete Links for a Usergroup
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756599938
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

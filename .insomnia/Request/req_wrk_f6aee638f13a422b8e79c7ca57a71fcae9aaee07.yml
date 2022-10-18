@@ -1,0 +1,29 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcae9aaee07
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcad5491e7e
+modified: 1663929246729
+created: 1661756604548
+url: "{{ base_url }}/checkout/{{ id }}/links"
+name: Add new Links for Checkout
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_63fc04fd0f714b9289ff64749c1503e8
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756604548
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

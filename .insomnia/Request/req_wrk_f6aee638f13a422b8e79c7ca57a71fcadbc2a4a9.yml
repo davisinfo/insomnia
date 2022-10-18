@@ -1,0 +1,63 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcadbc2a4a9
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca63acf68c
+modified: 1661756604796
+created: 1661756604796
+url: "{{ base_url }}/brand/{{ id }}"
+name: Updates specific value for Brand
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "object": "string",
+      "import_key": "string",
+      "version_date": 0,
+      "owner": 0,
+      "state": "string",
+      "language": "string",
+      "banner_id": "string",
+      "title": "string",
+      "introduction": "string",
+      "content": "string",
+      "access": "string",
+      "browser_title": "string",
+      "page_title": "string",
+      "seo_description": "string",
+      "seo_keywords": "string",
+      "seq": 0,
+      "insert": "string",
+      "is_dummy": "string",
+      "subitems": "string",
+      "pagebuilder_use": "string",
+      "content_pattern": "string",
+      "kind": "string",
+      "item_url": "string",
+      "id": 0,
+      "Refines": "string",
+      "RefinesByGroup": "string",
+      "Images": "string",
+      "encoded_id": "string",
+      "active_extensions": "string",
+      "custom_screen_folder": "string"
+    }
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756604796
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

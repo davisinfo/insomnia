@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcabe7d982d
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcab1d4d926
+modified: 1661756601166
+created: 1661756601166
+url: "{{ base_url }}/projectgroup/{{ id }}/links"
+name: Updates Links for a Projectgroup
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756601166
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

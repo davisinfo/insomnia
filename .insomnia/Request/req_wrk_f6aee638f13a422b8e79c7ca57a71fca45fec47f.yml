@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca45fec47f
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcae4ffacba
+modified: 1661756604663
+created: 1661756604663
+url: "{{ base_url }}/calendar/{{ id }}/images"
+name: Get Images for a Calendar
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756604663
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

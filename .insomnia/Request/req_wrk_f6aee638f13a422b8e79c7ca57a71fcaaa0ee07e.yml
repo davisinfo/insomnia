@@ -1,0 +1,27 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcaaa0ee07e
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcabb73aaaf
+modified: 1661756600158
+created: 1661756600158
+url: "{{ base_url }}/upload"
+name: Get collection of UploadEntities
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756600158
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

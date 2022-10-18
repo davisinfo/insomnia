@@ -1,0 +1,69 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca951ed187
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca29fc493d
+modified: 1661756601533
+created: 1661756601533
+url: "{{ base_url }}/productdiscount"
+name: Add a new ProductDiscount
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "object": "string",
+      "import_key": "string",
+      "version_date": 0,
+      "owner": 0,
+      "state": "string",
+      "title": "string",
+      "date_from": "string",
+      "date_until": "string",
+      "from_amount": "string",
+      "from_subtotal": "string",
+      "discount_code": "string",
+      "discount_percent": "string",
+      "discount_amount": "string",
+      "limited_usage": "string",
+      "times_used": "string",
+      "skip_discounted_products": "string",
+      "type": "string",
+      "notice": "string",
+      "RefineEntities": "string",
+      "checkoutarticle_id": "string",
+      "amount": "string",
+      "text": "string",
+      "insert": "string",
+      "is_dummy": "string",
+      "subitems": "string",
+      "pagebuilder_use": "string",
+      "content_pattern": "string",
+      "kind": "string",
+      "item_url": "string",
+      "id": 0,
+      "Refines": "string",
+      "RefinesByGroup": "string",
+      "Images": "string",
+      "encoded_id": "string",
+      "active_extensions": "string",
+      "custom_screen_folder": "string"
+    }
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756601533
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcaec9d5a9b
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca4cf5bc59
+modified: 1661756600940
+created: 1661756600940
+url: "{{ base_url }}/service/{{ id }}/links"
+name: Get Links for a Service
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756600940
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca0bc4c5a0
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca3b6fb903
+modified: 1661756601728
+created: 1661756601728
+url: "{{ base_url }}/popup/{{ id }}/links"
+name: Updates Links for a Popup
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756601728
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

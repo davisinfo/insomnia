@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca130fc429
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcaad831792
+modified: 1661756602380
+created: 1661756602380
+url: "{{ base_url }}/navigation/{{ id }}/links"
+name: Get Links for a Navigation
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756602380
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

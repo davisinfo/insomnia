@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca5e1df710
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca6dd0fe80
+modified: 1661756604353
+created: 1661756604353
+url: "{{ base_url }}/color/{{ id }}/links"
+name: Add new Links for Color
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756604353
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

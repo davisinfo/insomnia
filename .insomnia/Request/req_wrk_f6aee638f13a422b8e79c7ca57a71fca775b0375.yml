@@ -1,0 +1,33 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca775b0375
+type: Request
+parentId: fld_9046f87af07c4d9082f6c91f6a9ba5ed
+modified: 1666087821300
+created: 1661756604475
+url: "{{ base_url }}/checkout/{{ id }}/contacts/billing"
+name: Updates specific Contacts for a Checkout
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"fullname": "Test4 Test",
+    		"gender": "M"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0385f925f7174f52adc6782e1dca830d
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1665002020441.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

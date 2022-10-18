@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcad2b7c11f
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca96423d96
+modified: 1661756599800
+created: 1661756599800
+url: "{{ base_url }}/videogroup/{{ id }}/links"
+name: Updates Links for a Videogroup
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756599800
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

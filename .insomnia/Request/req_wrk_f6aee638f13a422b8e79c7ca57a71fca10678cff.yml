@@ -1,0 +1,65 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca10678cff
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca98f54143
+modified: 1661756601257
+created: 1661756601257
+url: "{{ base_url }}/project"
+name: Add a new Project
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "object": "string",
+      "id": 0,
+      "revision": "string",
+      "version_date": 0,
+      "owner": 0,
+      "state": "string",
+      "language": "string",
+      "projectgroup_id": "string",
+      "title": "string",
+      "subtitle": "string",
+      "introduction": "string",
+      "content": "string",
+      "tags": "string",
+      "access": "string",
+      "browser_title": "string",
+      "page_title": "string",
+      "seo_description": "string",
+      "seo_keywords": "string",
+      "seq": 0,
+      "insert": "string",
+      "is_dummy": "string",
+      "subitems": "string",
+      "pagebuilder_use": "string",
+      "content_pattern": "string",
+      "kind": "string",
+      "item_url": "string",
+      "Refines": "string",
+      "RefinesByGroup": "string",
+      "Images": "string",
+      "encoded_id": "string",
+      "active_extensions": "string",
+      "custom_screen_folder": "string"
+    }
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756601257
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

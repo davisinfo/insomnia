@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcae3bdeaa1
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcae4ffacba
+modified: 1661768716216
+created: 1661756604698
+url: "{{ base_url }}/calendar/{{ id }}"
+name: Deletes a Calendar
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+    id: pair_2b69f126c2f343f899d895c990ab74b0
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756604698
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

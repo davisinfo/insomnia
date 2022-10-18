@@ -1,0 +1,36 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcaf951d199
+type: Request
+parentId: fld_9046f87af07c4d9082f6c91f6a9ba5ed
+modified: 1666087695907
+created: 1661756604463
+url: "{{ base_url }}/checkout/{{ id }}/addresses/billing"
+name: Updates Addresses for a Checkout
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    	{
+    		"street": "Street",
+    		"housenumber": "2",
+    		"place": "Amsterdam",
+    		"zipcode": "AAAL 123",
+    		"address_type": "home"
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_34cbbaf13a46479681317fee71a58a02
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1665002020404.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

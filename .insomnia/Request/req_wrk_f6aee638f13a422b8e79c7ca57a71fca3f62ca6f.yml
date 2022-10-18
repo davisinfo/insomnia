@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca3f62ca6f
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca8cae6061
+modified: 1661756599958
+created: 1661756599958
+url: "{{ base_url }}/usergroup/{{ id }}/links"
+name: Get Links for a Usergroup
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756599958
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

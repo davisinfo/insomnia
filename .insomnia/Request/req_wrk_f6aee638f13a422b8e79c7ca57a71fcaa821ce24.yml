@@ -1,0 +1,27 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcaa821ce24
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca70cb8b4c
+modified: 1661756599866
+created: 1661756599866
+url: "{{ base_url }}/uspgroup"
+name: Get collection of UspgroupEntities
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756599866
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,10 @@
+_id: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcace610a5e
+type: RequestGroup
+parentId: wrk_f6aee638f13a422b8e79c7ca57a71fca
+modified: 1661756605413
+created: 1661756605413
+name: sizegroup
+description: The Sizegroup entity
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1661756605413

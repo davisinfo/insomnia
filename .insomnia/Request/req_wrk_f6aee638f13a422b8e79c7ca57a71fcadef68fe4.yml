@@ -1,0 +1,44 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcadef68fe4
+type: Request
+parentId: fld_9046f87af07c4d9082f6c91f6a9ba5ed
+modified: 1666095595431
+created: 1661756604482
+url: "{{ base_url }}/checkout/{{ id }}/contacts"
+name: Add new Contacts for Checkout
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    [
+    	{
+    		"contact_type": "billing",
+    		"firstname": "Test",
+    		"lastname": "Test",
+    		"email": "test@example.com"
+    	},
+    	{
+    		"contact_type": "delivery",
+    		"firstname": "Test",
+    		"lastname": "Test",
+    		"email": "test@example.com",
+    		"gender": "F"
+    	}
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_69ad044265d248b29a7fedc3981ba58a
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1665002020466.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

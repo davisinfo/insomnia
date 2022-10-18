@@ -1,0 +1,93 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca4bd413c7
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca38a00715
+modified: 1661756601687
+created: 1661756601687
+url: "{{ base_url }}/product/{{ id }}"
+name: Updates specific value for Product
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "object": "string",
+      "copied_from": "string",
+      "import_key": "string",
+      "group_key": "string",
+      "product_id": "string",
+      "version_date": 0,
+      "owner": 0,
+      "state": "string",
+      "language": "string",
+      "custom_label": "string",
+      "delivery_stock": "string",
+      "delivery_outofstock": "string",
+      "stock_count": "string",
+      "condition_id": "string",
+      "vat_id": "string",
+      "banner_id": "string",
+      "productgroup_id": "string",
+      "brand_id": "string",
+      "price_purchase": "string",
+      "sale_from": "string",
+      "sale_until": "string",
+      "title": "string",
+      "introduction": "string",
+      "content": "string",
+      "access": "string",
+      "browser_title": "string",
+      "page_title": "string",
+      "seo_description": "string",
+      "seo_keywords": "string",
+      "google_taxonomy": "string",
+      "seq": 0,
+      "favorite": "string",
+      "popular": "string",
+      "size_chart": "string",
+      "top_charts": "string",
+      "Refines": "string",
+      "Specification": "string",
+      "Stock": "string",
+      "prices": "string",
+      "BrandEntity": "string",
+      "ProductgroupEntity": "string",
+      "creation_date": "string",
+      "new_age": "string",
+      "ProductgroupEntities": "string",
+      "image_json": "string",
+      "ProductgroupPath": "string",
+      "DeliveryEntities": "string",
+      "insert": "string",
+      "is_dummy": "string",
+      "subitems": "string",
+      "pagebuilder_use": "string",
+      "content_pattern": "string",
+      "kind": "string",
+      "item_url": "string",
+      "id": 0,
+      "RefinesByGroup": "string",
+      "Images": "string",
+      "encoded_id": "string",
+      "active_extensions": "string",
+      "custom_screen_folder": "string"
+    }
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756601687
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

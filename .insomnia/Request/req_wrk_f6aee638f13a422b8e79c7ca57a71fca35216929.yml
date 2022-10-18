@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca35216929
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcaeddccd11
+modified: 1661756604415
+created: 1661756604415
+url: "{{ base_url }}/checkoutsubscription/{{ id }}/links"
+name: Get Links for a CheckoutSubscription
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756604415
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

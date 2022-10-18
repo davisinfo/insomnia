@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcac9cb6937
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcacaf322f0
+modified: 1661756603365
+created: 1661756603365
+url: "{{ base_url }}/employee/{{ id }}/links"
+name: Get Links for a Employee
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756603365
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

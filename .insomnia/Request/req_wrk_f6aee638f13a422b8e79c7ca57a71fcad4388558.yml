@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcad4388558
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcae86256b2
+modified: 1661756601840
+created: 1661756601840
+url: "{{ base_url }}/payment/{{ id }}/images/{{ imagesId }}"
+name: Updates specific Images for a Payment
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756601840
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

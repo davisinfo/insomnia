@@ -1,0 +1,32 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca274f6a75
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcad5491e7e
+modified: 1664281976970
+created: 1661756604498
+url: "{{ base_url }}/checkout/{{ id }}/articles/2"
+name: Updates specific Articles for a Checkout
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"amount": 10
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8971614f0e7e4c4ba9693b9b6d214a37
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756604498
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

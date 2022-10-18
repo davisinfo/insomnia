@@ -1,0 +1,10 @@
+_id: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcae75cb533
+type: RequestGroup
+parentId: wrk_f6aee638f13a422b8e79c7ca57a71fca
+modified: 1661756605115
+created: 1661756605115
+name: vacancy
+description: The Vacancy entity
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1661756605115

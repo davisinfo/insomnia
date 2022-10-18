@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca7534ff8f
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca20ba3182
+modified: 1661756600758
+created: 1661756600758
+url: "{{ base_url }}/shipping/{{ id }}"
+name: Find Shipping by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756600758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

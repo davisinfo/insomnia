@@ -1,0 +1,70 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcae0f5bb29
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca969b19a8
+modified: 1661756601603
+created: 1661756601603
+url: "{{ base_url }}/productbundle/{{ id }}"
+name: Updates specific value for ProductBundle
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "object": "string",
+      "import_key": "string",
+      "version_date": 0,
+      "owner": 0,
+      "state": "string",
+      "language": "string",
+      "vat_id": "string",
+      "sale_from": "string",
+      "sale_until": "string",
+      "title": "string",
+      "introduction": "string",
+      "content": "string",
+      "access": "string",
+      "browser_title": "string",
+      "page_title": "string",
+      "seo_description": "string",
+      "seo_keywords": "string",
+      "google_taxonomy": "string",
+      "seq": 0,
+      "prices": "string",
+      "creation_date": "string",
+      "new_age": "string",
+      "image_json": "string",
+      "insert": "string",
+      "is_dummy": "string",
+      "subitems": "string",
+      "pagebuilder_use": "string",
+      "content_pattern": "string",
+      "kind": "string",
+      "item_url": "string",
+      "id": 0,
+      "Refines": "string",
+      "RefinesByGroup": "string",
+      "Images": "string",
+      "encoded_id": "string",
+      "active_extensions": "string",
+      "custom_screen_folder": "string"
+    }
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756601603
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

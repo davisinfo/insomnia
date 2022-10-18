@@ -1,0 +1,73 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca660bafbd
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcae09ae8b6
+modified: 1661756602875
+created: 1661756602875
+url: "{{ base_url }}/htmlcode"
+name: Add a new Htmlcode
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "object": "string",
+      "import_key": "string",
+      "version_date": 0,
+      "owner": 0,
+      "state": "string",
+      "language": "string",
+      "title": "string",
+      "subtitle": "string",
+      "htmlcode": "string",
+      "content": "string",
+      "include": "string",
+      "link_module_object": "string",
+      "link_item_id": "string",
+      "link_custom_url": "string",
+      "link_text": "string",
+      "target": "string",
+      "cc_type": "string",
+      "type": "string",
+      "variables": "string",
+      "code_position": "string",
+      "seq": 0,
+      "link2_module_object": "string",
+      "link2_item_id": "string",
+      "link2_custom_url": "string",
+      "link2_text": "string",
+      "target2": "string",
+      "insert": "string",
+      "is_dummy": "string",
+      "subitems": "string",
+      "pagebuilder_use": "string",
+      "content_pattern": "string",
+      "kind": "string",
+      "item_url": "string",
+      "id": 0,
+      "Refines": "string",
+      "RefinesByGroup": "string",
+      "Images": "string",
+      "encoded_id": "string",
+      "active_extensions": "string",
+      "custom_screen_folder": "string"
+    }
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756602875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

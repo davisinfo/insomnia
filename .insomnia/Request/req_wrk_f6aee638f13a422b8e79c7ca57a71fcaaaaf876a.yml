@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcaaaaf876a
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcab1d3f3e4
+modified: 1661756603413
+created: 1661756603413
+url: "{{ base_url }}/emailsent/{{ id }}"
+name: Find EmailSent by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756603413
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

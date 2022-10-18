@@ -1,0 +1,62 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca6a7d8dbc
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcaa14c01c5
+modified: 1661756600988
+created: 1661756600988
+url: "{{ base_url }}/refinegroup/{{ id }}"
+name: Updates Refinegroup
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "object": "string",
+      "import_key": "string",
+      "version_date": 0,
+      "owner": 0,
+      "state": "string",
+      "language": "string",
+      "title": "string",
+      "notice": "string",
+      "type": "string",
+      "multi": "string",
+      "display": "string",
+      "seq": 0,
+      "field": "string",
+      "productgroup": "string",
+      "access": "string",
+      "Refines": "string",
+      "insert": "string",
+      "is_dummy": "string",
+      "subitems": "string",
+      "pagebuilder_use": "string",
+      "content_pattern": "string",
+      "kind": "string",
+      "item_url": "string",
+      "id": 0,
+      "RefinesByGroup": "string",
+      "Images": "string",
+      "encoded_id": "string",
+      "active_extensions": "string",
+      "custom_screen_folder": "string"
+    }
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756600988
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,27 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca74af4593
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca8cae6061
+modified: 1661756599972
+created: 1661756599972
+url: "{{ base_url }}/usergroup/{{ id }}"
+name: Deletes a Usergroup
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756599972
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

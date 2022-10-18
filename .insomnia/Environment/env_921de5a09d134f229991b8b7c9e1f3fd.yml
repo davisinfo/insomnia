@@ -1,0 +1,26 @@
+_id: env_921de5a09d134f229991b8b7c9e1f3fd
+type: Environment
+parentId: env_2ab29c919ba86692b44f78e8fd54f13e40e6e53f
+modified: 1666084009226
+created: 1664278315118
+name: Checkout epic test
+data:
+  scheme: https
+  base_path: /api/v1.0
+  host: itp-324.test.ibizz.nl
+  username: netrom@ibizz.nl
+  password: Xopo2686
+  id: 7
+  bearerToken: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2l0cC0zMjQudGVzdC5pYml6ei5ubCIsImlhdCI6MTY2NjA4Mzc2MS45ODEyMDEsImV4cCI6MTY2NjI1NjU2MS45NDkyODcsIm5iZiI6MTY2NjA4Mzc2MS45ODEyMiwiZGF0YSI6eyJjaGVja291dF9pZCI6N319.NvfoeT7CZmTH_9OdOWg_1V3rK3DHczh0ytxAawD-ElM
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+    - username
+    - password
+    - id
+    - bearerToken
+color: null
+isPrivate: false
+metaSortKey: 1662404794113.25

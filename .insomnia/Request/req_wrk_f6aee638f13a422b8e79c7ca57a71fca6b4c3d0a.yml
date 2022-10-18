@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca6b4c3d0a
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca96423d96
+modified: 1661756599802
+created: 1661756599802
+url: "{{ base_url }}/videogroup/{{ id }}/links"
+name: Add new Links for Videogroup
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756599802
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

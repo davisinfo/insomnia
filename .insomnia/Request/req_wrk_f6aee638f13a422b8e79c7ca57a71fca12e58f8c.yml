@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca12e58f8c
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcab1d4d926
+modified: 1661756601169
+created: 1661756601169
+url: "{{ base_url }}/projectgroup/{{ id }}/links"
+name: Add new Links for Projectgroup
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756601169
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

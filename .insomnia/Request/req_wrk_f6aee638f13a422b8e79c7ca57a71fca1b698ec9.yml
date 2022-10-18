@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca1b698ec9
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca38a00715
+modified: 1661756601651
+created: 1661756601651
+url: "{{ base_url }}/product/{{ id }}/images"
+name: Get Images for a Product
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756601651
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,27 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca4d9b350d
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcafb5ed1e8
+modified: 1661756601153
+created: 1661756601153
+url: "{{ base_url }}/redirect"
+name: Get collection of RedirectEntities
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756601153
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

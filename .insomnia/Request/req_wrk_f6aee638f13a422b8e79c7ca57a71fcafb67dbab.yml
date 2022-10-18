@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcafb67dbab
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcabd370d1b
+modified: 1661756600413
+created: 1661756600413
+url: "{{ base_url }}/step/{{ id }}/links"
+name: Add new Links for Step
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756600413
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

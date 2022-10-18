@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca165c70d4
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca610d57a2
+modified: 1661756603499
+created: 1661756603499
+url: "{{ base_url }}/documentfolder/{{ id }}/links/{{ linksId }}"
+name: Updates specific Links for a DocumentFolder
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756603499
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

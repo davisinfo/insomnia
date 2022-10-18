@@ -1,0 +1,10 @@
+_id: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca59e87971
+type: RequestGroup
+parentId: wrk_f6aee638f13a422b8e79c7ca57a71fca
+modified: 1661756605384
+created: 1661756605384
+name: staticdocument
+description: The Staticdocument entity
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1661756605384

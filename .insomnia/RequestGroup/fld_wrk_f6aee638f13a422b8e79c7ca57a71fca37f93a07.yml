@@ -1,0 +1,10 @@
+_id: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca37f93a07
+type: RequestGroup
+parentId: wrk_f6aee638f13a422b8e79c7ca57a71fca
+modified: 1661756611250
+created: 1661756611250
+name: banner
+description: The Banner entity
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1661756611250

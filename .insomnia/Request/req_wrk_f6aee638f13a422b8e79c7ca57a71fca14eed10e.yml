@@ -1,0 +1,76 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca14eed10e
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcad00b3981
+modified: 1661756603110
+created: 1661756603110
+url: "{{ base_url }}/form/{{ id }}"
+name: Updates specific value for Form
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "object": "string",
+      "import_key": "string",
+      "access": "string",
+      "version_date": 0,
+      "owner": 0,
+      "state": "string",
+      "language": "string",
+      "title_normal": "string",
+      "title_success": "string",
+      "title_error": "string",
+      "subtitle": "string",
+      "handling_action": "string",
+      "handling_email": "string",
+      "subject_mail": "string",
+      "sender_mail": "string",
+      "content_top_mail": "string",
+      "content_bottom_mail": "string",
+      "button_text": "string",
+      "conversion_success": "string",
+      "conversion_error": "string",
+      "confirmation_email": "string",
+      "confirmation_subject": "string",
+      "confirmation_message": "string",
+      "result_pdf": "string",
+      "subscription_toggle": "string",
+      "confirmation_add_attachment_to_mail": "string",
+      "crmsource_id": "string",
+      "notice": "string",
+      "sharp_spring": "string",
+      "insert": "string",
+      "is_dummy": "string",
+      "subitems": "string",
+      "pagebuilder_use": "string",
+      "content_pattern": "string",
+      "kind": "string",
+      "item_url": "string",
+      "id": 0,
+      "Refines": "string",
+      "RefinesByGroup": "string",
+      "Images": "string",
+      "encoded_id": "string",
+      "active_extensions": "string",
+      "custom_screen_folder": "string"
+    }
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756603110
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca96ca8c51
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcae75cb533
+modified: 1661756599856
+created: 1661756599856
+url: "{{ base_url }}/vacancy/{{ id }}"
+name: Find Vacancy by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756599856
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

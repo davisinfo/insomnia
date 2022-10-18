@@ -1,0 +1,74 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcac88f464a
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca1a73af9e
+modified: 1661756604074
+created: 1661756604074
+url: "{{ base_url }}/contact"
+name: Add a new Contact
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "object": "string",
+      "user_id": "string",
+      "import_key": "string",
+      "merged_contact_id": "string",
+      "version_date": 0,
+      "owner": 0,
+      "state": "string",
+      "contactgroup_id": "string",
+      "gender": "string",
+      "firstname": "string",
+      "lastname": "string",
+      "notice": "string",
+      "date_birth": "string",
+      "date_in_service": "string",
+      "phone_normal": "string",
+      "phone_mobile": "string",
+      "email": "string",
+      "introduction": "string",
+      "department": "string",
+      "create_account": "string",
+      "address_delivery": "string",
+      "address_visit": "string",
+      "address_billing": "string",
+      "contactgroup_title": "string",
+      "profile_data": "string",
+      "companies": "string",
+      "technical_information": "string",
+      "insert": "string",
+      "is_dummy": "string",
+      "subitems": "string",
+      "pagebuilder_use": "string",
+      "content_pattern": "string",
+      "kind": "string",
+      "item_url": "string",
+      "id": 0,
+      "Refines": "string",
+      "RefinesByGroup": "string",
+      "Images": "string",
+      "encoded_id": "string",
+      "active_extensions": "string",
+      "custom_screen_folder": "string"
+    }
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756604074
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

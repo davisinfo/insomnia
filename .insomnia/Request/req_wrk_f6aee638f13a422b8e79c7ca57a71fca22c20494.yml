@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca22c20494
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca5d29d2c5
+modified: 1661756602490
+created: 1661756602490
+url: "{{ base_url }}/loyaltycard/{{ id }}"
+name: Find Loyaltycard by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756602490
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

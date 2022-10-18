@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca8eedd4af
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca1a73af9e
+modified: 1661756604043
+created: 1661756604043
+url: "{{ base_url }}/contact/{{ id }}/links"
+name: Add new Links for Contact
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756604043
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

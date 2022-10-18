@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcae581a9a6
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca336611fe
+modified: 1661756601281
+created: 1661756601281
+url: "{{ base_url }}/productstockalert/{{ id }}/links"
+name: Updates Links for a Productstockalert
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756601281
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcab6860b14
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca98f54143
+modified: 1661756601252
+created: 1661756601252
+url: "{{ base_url }}/project/{{ id }}"
+name: Find Project by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756601252
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

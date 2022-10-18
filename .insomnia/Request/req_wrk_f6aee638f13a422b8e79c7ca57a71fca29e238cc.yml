@@ -1,0 +1,66 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca29e238cc
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca4cf5bc59
+modified: 1661756600946
+created: 1661756600946
+url: "{{ base_url }}/service"
+name: Add a new Service
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "object": "string",
+      "id": 0,
+      "version_date": 0,
+      "owner": 0,
+      "state": "string",
+      "language": "string",
+      "servicegroup_id": "string",
+      "location_id": "string",
+      "title": "string",
+      "subtitle": "string",
+      "icon": "string",
+      "introduction": "string",
+      "content": "string",
+      "tags": "string",
+      "access": "string",
+      "browser_title": "string",
+      "page_title": "string",
+      "seo_description": "string",
+      "seo_keywords": "string",
+      "seq": 0,
+      "insert": "string",
+      "is_dummy": "string",
+      "subitems": "string",
+      "pagebuilder_use": "string",
+      "content_pattern": "string",
+      "kind": "string",
+      "item_url": "string",
+      "Refines": "string",
+      "RefinesByGroup": "string",
+      "Images": "string",
+      "encoded_id": "string",
+      "active_extensions": "string",
+      "custom_screen_folder": "string"
+    }
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756600946
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

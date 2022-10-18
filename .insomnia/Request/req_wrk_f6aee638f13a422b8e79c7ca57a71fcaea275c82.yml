@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcaea275c82
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca2a61ac9d
+modified: 1661756599828
+created: 1661756599828
+url: "{{ base_url }}/vat/{{ id }}/links"
+name: Get Links for a Vat
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756599828
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca3cc26252
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca4cf5bc59
+modified: 1661756600928
+created: 1661756600928
+url: "{{ base_url }}/service/{{ id }}/images"
+name: Add new Images for Service
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756600928
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

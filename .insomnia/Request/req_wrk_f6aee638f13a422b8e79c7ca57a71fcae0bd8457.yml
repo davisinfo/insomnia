@@ -1,0 +1,27 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcae0bd8457
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcae760f359
+modified: 1661756601041
+created: 1661756601041
+url: "{{ base_url }}/referencegroup/{{ id }}"
+name: Deletes a Referencegroup
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756601041
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

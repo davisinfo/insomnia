@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca5454addc
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcaafad9a69
+modified: 1661756604146
+created: 1661756604146
+url: "{{ base_url }}/condition/{{ id }}/links/{{ linksId }}"
+name: Delete Links for a Condition
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756604146
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

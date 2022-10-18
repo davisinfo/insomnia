@@ -1,0 +1,8 @@
+_id: wrk_f6aee638f13a422b8e79c7ca57a71fca
+type: Workspace
+parentId: null
+modified: 1661756611961
+created: 1661756484898
+name: "Endpoint Builder: WiNGZZ API 1.0"
+description: This is the API of our WiNGZZ framework
+scope: design

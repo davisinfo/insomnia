@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcab7666893
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcaafad9a69
+modified: 1661756604184
+created: 1661756604184
+url: "{{ base_url }}/condition/{{ id }}"
+name: Find Condition by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756604184
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca8a85b43f
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcabb73aaaf
+modified: 1661756600121
+created: 1661756600121
+url: "{{ base_url }}/upload/{{ id }}/links"
+name: Get Links for a Upload
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756600121
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

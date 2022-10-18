@@ -1,0 +1,10 @@
+_id: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca63acf68c
+type: RequestGroup
+parentId: wrk_f6aee638f13a422b8e79c7ca57a71fca
+modified: 1661756610993
+created: 1661756610993
+name: brand
+description: The Brand entity
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1661756610993

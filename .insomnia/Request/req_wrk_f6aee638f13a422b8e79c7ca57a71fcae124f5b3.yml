@@ -1,0 +1,72 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcae124f5b3
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca1ee63a94
+modified: 1661756601413
+created: 1661756601413
+url: "{{ base_url }}/productgroup"
+name: Add a new Productgroup
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "object": "string",
+      "import_key": "string",
+      "version_date": 0,
+      "owner": 0,
+      "state": "string",
+      "language": "string",
+      "main_site_id": "string",
+      "productgroup_id": "string",
+      "has_children": "string",
+      "sub_ids": "string",
+      "parent_ids": "string",
+      "banner_id": "string",
+      "productcategory_id": "string",
+      "google_id": "string",
+      "title": "string",
+      "subtitle": "string",
+      "introduction": "string",
+      "content": "string",
+      "access": "string",
+      "browser_title": "string",
+      "page_title": "string",
+      "seo_description": "string",
+      "seo_keywords": "string",
+      "seq": 0,
+      "item_url_cache": "string",
+      "insert": "string",
+      "is_dummy": "string",
+      "subitems": "string",
+      "pagebuilder_use": "string",
+      "content_pattern": "string",
+      "kind": "string",
+      "item_url": "string",
+      "id": 0,
+      "Refines": "string",
+      "RefinesByGroup": "string",
+      "Images": "string",
+      "encoded_id": "string",
+      "active_extensions": "string",
+      "custom_screen_folder": "string"
+    }
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756601413
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

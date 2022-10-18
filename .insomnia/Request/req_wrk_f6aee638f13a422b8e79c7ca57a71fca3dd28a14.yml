@@ -1,0 +1,37 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca3dd28a14
+type: Request
+parentId: fld_9046f87af07c4d9082f6c91f6a9ba5ed
+modified: 1666098405332
+created: 1661756604516
+url: "{{ base_url }}/checkout/{{ id }}/articles"
+name: Add new Articles for Checkout
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    [
+    	{
+    	 "module_object": "Product",
+    		"item_id": 6,
+    		"amount": 1,
+    		"size_id": 1
+    	}
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_656c3cb4b7314cf28505529b3d5859b7
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1665002020604.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

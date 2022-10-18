@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcaeda2f9ba
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca38a00715
+modified: 1661756601666
+created: 1661756601666
+url: "{{ base_url }}/product/{{ id }}/links/{{ linksId }}"
+name: Updates specific Links for a Product
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756601666
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

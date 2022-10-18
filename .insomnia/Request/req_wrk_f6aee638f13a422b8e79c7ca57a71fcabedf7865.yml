@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcabedf7865
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcadc4d235f
+modified: 1661756602138
+created: 1661756602138
+url: "{{ base_url }}/pagebuilder/{{ id }}"
+name: Find Pagebuilder by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756602138
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

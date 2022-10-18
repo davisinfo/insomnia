@@ -1,0 +1,10 @@
+_id: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcaf70097b7
+type: RequestGroup
+parentId: wrk_f6aee638f13a422b8e79c7ca57a71fca
+modified: 1661756607429
+created: 1661756607429
+name: imagefolder
+description: The ImageFolder entity
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1661756607429

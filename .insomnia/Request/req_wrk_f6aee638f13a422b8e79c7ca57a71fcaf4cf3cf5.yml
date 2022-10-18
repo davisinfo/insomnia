@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcaf4cf3cf5
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca242f1d46
+modified: 1661756602921
+created: 1661756602921
+url: "{{ base_url }}/formstep/{{ id }}/links"
+name: Get Links for a Formstep
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756602921
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcaf0fe2c2c
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca89368e1d
+modified: 1661756600679
+created: 1661756600679
+url: "{{ base_url }}/size/{{ id }}"
+name: Find Size by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756600679
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

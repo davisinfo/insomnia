@@ -1,0 +1,10 @@
+_id: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca610d57a2
+type: RequestGroup
+parentId: wrk_f6aee638f13a422b8e79c7ca57a71fca
+modified: 1661756608586
+created: 1661756608586
+name: documentfolder
+description: The DocumentFolder entity
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1661756608586

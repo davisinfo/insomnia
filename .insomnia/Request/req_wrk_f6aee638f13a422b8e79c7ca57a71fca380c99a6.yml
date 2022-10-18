@@ -1,0 +1,27 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca380c99a6
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcadc4d235f
+modified: 1661756602149
+created: 1661756602149
+url: "{{ base_url }}/pagebuilder"
+name: Get collection of PagebuilderEntities
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756602149
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca42fcf7cd
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca8e68b3e5
+modified: 1661756603897
+created: 1661756603897
+url: "{{ base_url }}/country/{{ id }}"
+name: Find Country by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756603897
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

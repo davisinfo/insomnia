@@ -1,0 +1,77 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca7fc62f20
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcacaf322f0
+modified: 1661756603402
+created: 1661756603402
+url: "{{ base_url }}/employee"
+name: Add a new Employee
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "object": "string",
+      "id": 0,
+      "version_date": 0,
+      "owner": 0,
+      "state": "string",
+      "language": "string",
+      "employeegroup_id": "string",
+      "title": "string",
+      "company": "string",
+      "subtitle": "string",
+      "phonenumber": "string",
+      "mobilenumber": "string",
+      "emailaddress": "string",
+      "website": "string",
+      "whatsapp": "string",
+      "facebook": "string",
+      "twitter": "string",
+      "linkedin": "string",
+      "instagram": "string",
+      "youtube": "string",
+      "introduction": "string",
+      "content": "string",
+      "tags": "string",
+      "function": "string",
+      "motto": "string",
+      "access": "string",
+      "browser_title": "string",
+      "page_title": "string",
+      "seo_description": "string",
+      "seo_keywords": "string",
+      "seq": 0,
+      "insert": "string",
+      "is_dummy": "string",
+      "subitems": "string",
+      "pagebuilder_use": "string",
+      "content_pattern": "string",
+      "kind": "string",
+      "item_url": "string",
+      "Refines": "string",
+      "RefinesByGroup": "string",
+      "Images": "string",
+      "encoded_id": "string",
+      "active_extensions": "string",
+      "custom_screen_folder": "string"
+    }
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756603402
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

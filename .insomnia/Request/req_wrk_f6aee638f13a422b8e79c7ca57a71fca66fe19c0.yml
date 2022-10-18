@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca66fe19c0
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcae75cb533
+modified: 1661756599847
+created: 1661756599847
+url: "{{ base_url }}/vacancy/{{ id }}/images"
+name: Get Images for a Vacancy
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756599847
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

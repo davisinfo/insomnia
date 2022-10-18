@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcafc26ec84
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca9613c87e
+modified: 1661756603805
+created: 1661756603805
+url: "{{ base_url }}/cta/{{ id }}/links"
+name: Add new Links for Cta
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756603805
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

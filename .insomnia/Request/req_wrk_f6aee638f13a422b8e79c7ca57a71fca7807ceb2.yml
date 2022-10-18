@@ -1,0 +1,70 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca7807ceb2
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcaad831792
+modified: 1661756602401
+created: 1661756602401
+url: "{{ base_url }}/navigation/{{ id }}"
+name: Updates Navigation
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "object": "string",
+      "copied_from_id": "string",
+      "version_date": 0,
+      "owner": 0,
+      "state": "string",
+      "language": "string",
+      "position": "string",
+      "navigation_id": "string",
+      "textblock_id": "string",
+      "has_children": "string",
+      "title": "string",
+      "show_module_object": "string",
+      "show_only_favorite": "string",
+      "show_limit": "string",
+      "link_module_object": "string",
+      "link_item_id": "string",
+      "link_custom_url": "string",
+      "target": "string",
+      "seq": 0,
+      "site_id": "string",
+      "depth": "string",
+      "max_depth": "string",
+      "LinkedEntity": "string",
+      "insert": "string",
+      "is_dummy": "string",
+      "subitems": "string",
+      "pagebuilder_use": "string",
+      "content_pattern": "string",
+      "kind": "string",
+      "item_url": "string",
+      "id": 0,
+      "Refines": "string",
+      "RefinesByGroup": "string",
+      "Images": "string",
+      "encoded_id": "string",
+      "active_extensions": "string",
+      "custom_screen_folder": "string"
+    }
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756602401
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

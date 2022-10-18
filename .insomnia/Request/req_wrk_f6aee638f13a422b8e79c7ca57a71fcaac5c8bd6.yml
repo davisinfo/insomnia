@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcaac5c8bd6
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca80e0521c
+modified: 1661756604604
+created: 1661756604604
+url: "{{ base_url }}/calendargroup/{{ id }}/links"
+name: Get Links for a Calendargroup
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756604604
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

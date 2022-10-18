@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcaa1173f54
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcaf04deb45
+modified: 1661756599789
+created: 1661756599789
+url: "{{ base_url }}/voucher/{{ id }}/links/{{ linksId }}"
+name: Delete Links for a Voucher
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756599789
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

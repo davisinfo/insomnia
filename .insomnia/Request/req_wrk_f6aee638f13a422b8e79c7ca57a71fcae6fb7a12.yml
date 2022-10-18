@@ -1,0 +1,66 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcae6fb7a12
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcaf51a32c7
+modified: 1661756600799
+created: 1661756600799
+url: "{{ base_url }}/shipment/{{ id }}"
+name: Updates specific value for Shipment
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "object": "string",
+      "id": 0,
+      "version_date": 0,
+      "owner": 0,
+      "state": "string",
+      "language": "string",
+      "shipment_id": "string",
+      "checkout_id": "string",
+      "shipment_date": "string",
+      "shipment_reference": "string",
+      "shipmentnumber": "string",
+      "label_url": "string",
+      "tracktrace_url": "string",
+      "big_parcel": "string",
+      "only_recipient": "string",
+      "signature": "string",
+      "return_not_home": "string",
+      "age_check": "string",
+      "insured_amount": "string",
+      "shipment_state": "string",
+      "insert": "string",
+      "is_dummy": "string",
+      "subitems": "string",
+      "pagebuilder_use": "string",
+      "content_pattern": "string",
+      "kind": "string",
+      "item_url": "string",
+      "Refines": "string",
+      "RefinesByGroup": "string",
+      "Images": "string",
+      "encoded_id": "string",
+      "active_extensions": "string",
+      "custom_screen_folder": "string"
+    }
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756600799
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

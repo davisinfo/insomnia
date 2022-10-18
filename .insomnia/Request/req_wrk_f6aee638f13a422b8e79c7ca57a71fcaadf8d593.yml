@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcaadf8d593
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca969b19a8
+modified: 1661756601557
+created: 1661756601557
+url: "{{ base_url }}/productbundle/{{ id }}/images"
+name: Updates Images for a ProductBundle
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756601557
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

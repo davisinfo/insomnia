@@ -1,0 +1,65 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca1028d268
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcaf4815711
+modified: 1661756603884
+created: 1661756603884
+url: "{{ base_url }}/cronjob"
+name: Add a new Cronjob
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "object": "string",
+      "version_date": 0,
+      "owner": 0,
+      "state": "string",
+      "title": "string",
+      "schedule_minute": "string",
+      "schedule_hour": "string",
+      "schedule_dayofmonth": "string",
+      "schedule_month": "string",
+      "schedule_dayofweek": "string",
+      "last_run": "string",
+      "in_progress": "string",
+      "thrown_exception": "string",
+      "duration_hours": "string",
+      "mailed": "string",
+      "controller": "string",
+      "method": "string",
+      "seq": 0,
+      "insert": "string",
+      "is_dummy": "string",
+      "subitems": "string",
+      "pagebuilder_use": "string",
+      "content_pattern": "string",
+      "kind": "string",
+      "item_url": "string",
+      "id": 0,
+      "Refines": "string",
+      "RefinesByGroup": "string",
+      "Images": "string",
+      "encoded_id": "string",
+      "active_extensions": "string",
+      "custom_screen_folder": "string"
+    }
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756603884
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

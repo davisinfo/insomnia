@@ -1,0 +1,53 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca65a80842
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca37f93a07
+modified: 1661756604933
+created: 1661756604933
+url: "{{ base_url }}/banner/{{ id }}"
+name: Updates specific value for Banner
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "object": "string",
+      "id": 0,
+      "version_date": 0,
+      "owner": 0,
+      "state": "string",
+      "default": "string",
+      "title": "string",
+      "insert": "string",
+      "is_dummy": "string",
+      "subitems": "string",
+      "pagebuilder_use": "string",
+      "content_pattern": "string",
+      "kind": "string",
+      "item_url": "string",
+      "Refines": "string",
+      "RefinesByGroup": "string",
+      "Images": "string",
+      "encoded_id": "string",
+      "active_extensions": "string",
+      "custom_screen_folder": "string"
+    }
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756604933
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

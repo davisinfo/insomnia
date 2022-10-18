@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcade60b270
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcae75cb533
+modified: 1661756599850
+created: 1661756599850
+url: "{{ base_url }}/vacancy/{{ id }}/links"
+name: Updates Links for a Vacancy
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756599850
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

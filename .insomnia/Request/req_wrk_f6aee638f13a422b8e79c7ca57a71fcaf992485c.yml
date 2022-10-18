@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcaf992485c
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca4a35c064
+modified: 1661756599786
+created: 1661756599786
+url: "{{ base_url }}/warehouse/{{ id }}"
+name: Find Warehouse by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756599786
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcae183ba02
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca3559d7ac
+modified: 1662639527475
+created: 1661756600947
+url: "{{ base_url }}/search"
+name: Get collection of SearchEntities
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+    id: pair_ed1d1f78ac554ae998e4d28381cf2aee
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756600947
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,27 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca0c991e28
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca15c63f04
+modified: 1661756603197
+created: 1661756603197
+url: "{{ base_url }}/faqgroup"
+name: Get collection of FaqgroupEntities
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756603197
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

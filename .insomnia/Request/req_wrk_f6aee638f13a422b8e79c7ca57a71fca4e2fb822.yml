@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca4e2fb822
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca4a35c064
+modified: 1661756599781
+created: 1661756599781
+url: "{{ base_url }}/warehouse/{{ id }}/links"
+name: Add new Links for Warehouse
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756599781
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

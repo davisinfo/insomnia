@@ -1,0 +1,63 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca495bc6e3
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca0e762927
+modified: 1663756342428
+created: 1661756602838
+url: "{{ base_url }}/image"
+name: Add a new Image
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "object": "string",
+      "version_date": 0,
+      "owner": 0,
+      "state": "string",
+      "import_key": "string",
+      "imagefolder_id": "string",
+      "external_name": "string",
+      "seq": 0,
+      "folder_name": "string",
+      "tmp_name": "string",
+      "id": 0,
+      "title": "string",
+      "filetype": "string",
+      "is_editable": "string",
+      "is_removable": "string",
+      "insert": "string",
+      "is_dummy": "string",
+      "subitems": "string",
+      "pagebuilder_use": "string",
+      "content_pattern": "string",
+      "kind": "string",
+      "item_url": "string",
+      "Refines": "string",
+      "RefinesByGroup": "string",
+      "Images": "string",
+      "encoded_id": "string",
+      "active_extensions": "string",
+      "custom_screen_folder": "string"
+    }
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: jwt
+    id: pair_2676e68520ac42b59242116aee6a284c
+  - name: Content-Type
+    value: application/json
+    id: pair_3023fa5c84e843ac879cf5fa5ecc8d4c
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756602838
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

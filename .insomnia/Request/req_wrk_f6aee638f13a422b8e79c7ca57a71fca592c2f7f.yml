@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca592c2f7f
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca242f1d46
+modified: 1661756602927
+created: 1661756602927
+url: "{{ base_url }}/formstep/{{ id }}/links"
+name: Add new Links for Formstep
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756602927
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

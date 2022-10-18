@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcae7cec783
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca29fc493d
+modified: 1661756601486
+created: 1661756601486
+url: "{{ base_url }}/productdiscount/{{ id }}/links/{{ linksId }}"
+name: Updates specific Links for a ProductDiscount
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756601486
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

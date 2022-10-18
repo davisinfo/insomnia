@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca54138cfa
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca0e762927
+modified: 1661756602806
+created: 1661756602806
+url: "{{ base_url }}/image/{{ id }}/links"
+name: Get Links for a Image
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756602806
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_d9d36f8f770545c6920516a4dc8b2af9
+type: Request
+parentId: fld_9046f87af07c4d9082f6c91f6a9ba5ed
+modified: 1666095577741
+created: 1663827795130
+url: "{{ base_url }}/checkout/{{ id }}/discounts"
+name: Add new Discount for Checkout
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	 "discount_code": "SALE5"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_656c3cb4b7314cf28505529b3d5859b7
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1665002020554.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

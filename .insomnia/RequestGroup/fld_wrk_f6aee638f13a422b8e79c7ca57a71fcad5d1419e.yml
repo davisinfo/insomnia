@@ -1,0 +1,10 @@
+_id: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcad5d1419e
+type: RequestGroup
+parentId: wrk_f6aee638f13a422b8e79c7ca57a71fca
+modified: 1661756606159
+created: 1661756606159
+name: productfilterdocument
+description: The ProductFilterDocument entity
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1661756606159

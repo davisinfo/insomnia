@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca97c51d50
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca3c6bdcdd
+modified: 1661756602244
+created: 1661756602244
+url: "{{ base_url }}/news/{{ id }}/images"
+name: Add new Images for News
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756602244
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

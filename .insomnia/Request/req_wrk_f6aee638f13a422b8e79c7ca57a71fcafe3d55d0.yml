@@ -1,0 +1,66 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcafe3d55d0
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca12dea96f
+modified: 1666083643430
+created: 1661756600040
+url: "{{ base_url }}/user"
+name: Add a new User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "object": "string",
+      "import_key": "string",
+      "state": "string",
+      "admin": "string",
+      "username": "string",
+      "email": "string",
+      "fullname": "string",
+      "registration_date": "string",
+      "lastlogin_date": "string",
+      "lastlogin_method": "string",
+      "show_ids": "string",
+      "autologin": "string",
+      "attempts_failed_login": "string",
+      "attempts_succesfull_login": "string",
+      "api_key": "string",
+      "password": "string",
+      "Usergroups": "string",
+      "insert": "string",
+      "is_dummy": "string",
+      "subitems": "string",
+      "pagebuilder_use": "string",
+      "content_pattern": "string",
+      "kind": "string",
+      "item_url": "string",
+      "id": 0,
+      "Refines": "string",
+      "RefinesByGroup": "string",
+      "Images": "string",
+      "encoded_id": "string",
+      "active_extensions": "string",
+      "custom_screen_folder": "string"
+    }
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+    id: pair_c2221258533946b28afe434eaf7a2395
+  - name: Content-Type
+    value: application/json
+    id: pair_2de63a809b8a432e9a40c577c9e62654
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756600040
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

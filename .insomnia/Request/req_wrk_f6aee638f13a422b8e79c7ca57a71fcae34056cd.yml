@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcae34056cd
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca969b19a8
+modified: 1661756601587
+created: 1661756601587
+url: "{{ base_url }}/productbundle/{{ id }}/links"
+name: Get Links for a ProductBundle
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756601587
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

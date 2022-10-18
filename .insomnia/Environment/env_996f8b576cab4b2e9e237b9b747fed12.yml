@@ -1,0 +1,26 @@
+_id: env_996f8b576cab4b2e9e237b9b747fed12
+type: Environment
+parentId: env_2ab29c919ba86692b44f78e8fd54f13e40e6e53f
+modified: 1665983515425
+created: 1663916771727
+name: Checkout epic
+data:
+  scheme: https
+  base_path: /api/v1.0
+  host: wingzz-base-v3-itp-324.localhost.ibizz.nl
+  username: ibizz@netrom.ro
+  password: Pufu8667
+  id: 8
+  bearerToken: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3dpbmd6ei1iYXNlLXYzLWl0cC0zMjQubG9jYWxob3N0LmliaXp6Lm5sIiwiaWF0IjoxNjY1OTgzNDg2LjA3NDMxOSwiZXhwIjoxNjY2MTU2Mjg2LjA1ODQ3OCwibmJmIjoxNjY1OTgzNDg2LjA3NDMyNSwiZGF0YSI6eyJjaGVja291dF9pZCI6OH19.R4iPRfpnI80a1yRzW2mFnGEfBte4BLHE67YakTVrMfE
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+    - username
+    - password
+    - id
+    - bearerToken
+color: null
+isPrivate: false
+metaSortKey: 1662188733306.5

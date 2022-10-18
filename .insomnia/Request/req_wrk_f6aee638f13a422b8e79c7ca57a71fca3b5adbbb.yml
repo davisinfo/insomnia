@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca3b5adbbb
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcabd370d1b
+modified: 1661756600433
+created: 1661756600433
+url: "{{ base_url }}/step/{{ id }}"
+name: Find Step by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756600433
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

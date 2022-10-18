@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcabacccc12
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca9613c87e
+modified: 1661756603782
+created: 1661756603782
+url: "{{ base_url }}/cta/{{ id }}/links/{{ linksId }}"
+name: Delete Links for a Cta
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756603782
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

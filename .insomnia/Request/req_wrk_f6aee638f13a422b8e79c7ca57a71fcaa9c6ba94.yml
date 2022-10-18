@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcaa9c6ba94
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca1a73af9e
+modified: 1663240284612
+created: 1661756604079
+url: "{{ base_url }}/contact"
+name: Get collection of ContactEntities
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: jwt
+    id: pair_cc1b24a1cbb44142bb036fb40c400963
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756604079
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca2881c80a
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca15c63f04
+modified: 1661756603146
+created: 1661756603146
+url: "{{ base_url }}/faqgroup/{{ id }}/links/{{ linksId }}"
+name: Updates specific Links for a Faqgroup
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756603146
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

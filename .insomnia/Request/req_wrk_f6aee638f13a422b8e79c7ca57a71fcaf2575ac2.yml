@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcaf2575ac2
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca6dd0fe80
+modified: 1661756604342
+created: 1661756604342
+url: "{{ base_url }}/color/{{ id }}/links"
+name: Get Links for a Color
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756604342
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

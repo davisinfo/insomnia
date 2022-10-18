@@ -1,0 +1,76 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcaf8e54881
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcacd41b4f5
+modified: 1661756600272
+created: 1661756600272
+url: "{{ base_url }}/textblock/{{ id }}"
+name: Updates Textblock
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "object": "string",
+      "version_date": 0,
+      "owner": 0,
+      "state": "string",
+      "language": "string",
+      "textblockfolder_id": "string",
+      "color": "string",
+      "textcolor": "string",
+      "position_horizontal": "string",
+      "position_vertical": "string",
+      "subtitle": "string",
+      "content": "string",
+      "icon": "string",
+      "link_module_object": "string",
+      "link_item_id": "string",
+      "link_custom_url": "string",
+      "link_text": "string",
+      "target": "string",
+      "notice": "string",
+      "link2_module_object": "string",
+      "link2_item_id": "string",
+      "link2_custom_url": "string",
+      "link2_text": "string",
+      "target2": "string",
+      "tmp_name": "string",
+      "upload_folder": "string",
+      "id": 0,
+      "title": "string",
+      "filetype": "string",
+      "default_link_text": "string",
+      "insert": "string",
+      "is_dummy": "string",
+      "subitems": "string",
+      "pagebuilder_use": "string",
+      "content_pattern": "string",
+      "kind": "string",
+      "item_url": "string",
+      "Refines": "string",
+      "RefinesByGroup": "string",
+      "Images": "string",
+      "encoded_id": "string",
+      "active_extensions": "string",
+      "custom_screen_folder": "string"
+    }
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756600272
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

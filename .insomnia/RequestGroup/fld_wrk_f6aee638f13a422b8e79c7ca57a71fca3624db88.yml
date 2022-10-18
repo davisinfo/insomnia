@@ -1,0 +1,10 @@
+_id: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca3624db88
+type: RequestGroup
+parentId: wrk_f6aee638f13a422b8e79c7ca57a71fca
+modified: 1661756606534
+created: 1661756606534
+name: partner
+description: The Partner entity
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1661756606534

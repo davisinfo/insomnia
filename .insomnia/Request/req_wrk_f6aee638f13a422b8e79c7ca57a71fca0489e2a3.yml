@@ -1,0 +1,34 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca0489e2a3
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca17693963
+modified: 1666085996854
+created: 1661756605035
+url: "{{ base_url }}/auth/jwt/access_token"
+name: Request a new JWT access token
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_90fa9f78efd946e7b31fe20d3a798187
+      name: username
+      value: "{{username}}"
+      description: ""
+    - id: pair_3f59c9a4a5bd4a6da128b7c0ecb8f55a
+      name: password
+      value: "{{password}}"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_e1c0d6779a6641ea90c04443b8e46ae7
+authentication: {}
+metaSortKey: -1661756605035
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

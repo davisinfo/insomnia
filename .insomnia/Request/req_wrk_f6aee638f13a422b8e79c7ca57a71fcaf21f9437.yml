@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcaf21f9437
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca63acf68c
+modified: 1661756604779
+created: 1661756604779
+url: "{{ base_url }}/brand/{{ id }}/links"
+name: Get Links for a Brand
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756604779
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

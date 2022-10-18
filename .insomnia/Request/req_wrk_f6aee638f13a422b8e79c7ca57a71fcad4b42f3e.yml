@@ -1,0 +1,25 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcad4b42f3e
+type: Request
+parentId: fld_9046f87af07c4d9082f6c91f6a9ba5ed
+modified: 1666095606300
+created: 1661756604570
+url: "{{ base_url }}/checkout/{{id}}"
+name: Find Checkout by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+  disabled: false
+metaSortKey: -1665002020529.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

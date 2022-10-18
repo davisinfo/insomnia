@@ -1,0 +1,27 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca881e2704
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcacaf322f0
+modified: 1661756603379
+created: 1661756603379
+url: "{{ base_url }}/employee/{{ id }}"
+name: Deletes a Employee
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756603379
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

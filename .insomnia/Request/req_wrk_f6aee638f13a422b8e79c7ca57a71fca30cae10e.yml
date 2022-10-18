@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca30cae10e
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca6469ac84
+modified: 1661756602545
+created: 1661756602545
+url: "{{ base_url }}/location/{{ id }}/links"
+name: Get Links for a Location
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756602545
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

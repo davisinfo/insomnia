@@ -1,0 +1,28 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca8e7f6dd1
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcae75cb533
+modified: 1661756599848
+created: 1661756599848
+url: "{{ base_url }}/vacancy/{{ id }}/images"
+name: Add new Images for Vacancy
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756599848
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,27 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca0a17a250
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca2586d2a4
+modified: 1661756604879
+created: 1661756604879
+url: "{{ base_url }}/bonuspoint"
+name: Get collection of BonuspointEntities
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756604879
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

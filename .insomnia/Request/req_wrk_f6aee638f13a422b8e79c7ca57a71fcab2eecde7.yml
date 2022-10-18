@@ -1,0 +1,24 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcab2eecde7
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcadc4d235f
+modified: 1661756602110
+created: 1661756602110
+url: "{{ base_url }}/pagebuilder/{{ id }}/links"
+name: Get Links for a Pagebuilder
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756602110
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

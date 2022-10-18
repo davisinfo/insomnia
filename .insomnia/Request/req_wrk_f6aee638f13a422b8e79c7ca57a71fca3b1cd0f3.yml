@@ -1,0 +1,27 @@
+_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca3b1cd0f3
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcacd41b4f5
+modified: 1661756600289
+created: 1661756600289
+url: "{{ base_url }}/textblock"
+name: Get collection of TextblockEntities
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: authenticationmethod
+    disabled: false
+    value: string
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1661756600289
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
