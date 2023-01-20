@@ -1,7 +1,7 @@
 _id: req_d9d36f8f770545c6920516a4dc8b2af9
 type: Request
-parentId: fld_9046f87af07c4d9082f6c91f6a9ba5ed
-modified: 1666095577741
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcad5491e7e
+modified: 1666173763571
 created: 1663827795130
 url: "{{ base_url }}/checkout/{{ id }}/discounts"
 name: Add new Discount for Checkout
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |
     {
-    	 "discount_code": "SALE5"
+    	 "discount_code": "BBB"
     }
 parameters: []
 headers:
@@ -22,7 +22,7 @@ authentication:
   type: bearer
   token: "{{bearerToken}}"
   prefix: ""
-metaSortKey: -1665002020554.25
+metaSortKey: -1661756604487.875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

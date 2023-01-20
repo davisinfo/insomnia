@@ -1,21 +1,25 @@
-_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcad4b42f3e
+_id: req_2ad8fbc086794bd281fe2632a9705d7b
 type: Request
 parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcad5491e7e
-modified: 1670420629384
-created: 1661756604570
-url: "{{ base_url }}/checkout/{{id}}"
-name: Find Checkout by ID
+modified: 1667912841829
+created: 1666704508744
+url: "{{ base_url }}/lookup/zipcode?country=nl&zipcode=AAA1AA"
+name: Lookup
 description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - name: authenticationmethod
+    disabled: true
+    value: jwt
+    id: pair_a629869a838d433581b1a9128aa9bb87
 authentication:
   type: bearer
   token: "{{bearerToken}}"
   prefix: ""
-  disabled: false
-metaSortKey: -1661756604718.5
+  disabled: true
+metaSortKey: -1661756604617.9375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

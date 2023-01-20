@@ -1,10 +1,10 @@
-_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcad4b42f3e
+_id: req_7dd807bf2bb0430eaeba409f3a7c0ab7
 type: Request
-parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcad5491e7e
-modified: 1670420629384
-created: 1661756604570
-url: "{{ base_url }}/checkout/{{id}}"
-name: Find Checkout by ID
+parentId: fld_63a219393d6f42b6bb30fbe57eaba4f3
+modified: 1667382203429
+created: 1667382113614
+url: "{{base_url}}/workflowpropertyfield"
+name: New Request
 description: ""
 method: GET
 body: {}
@@ -13,9 +13,7 @@ headers: []
 authentication:
   type: bearer
   token: "{{bearerToken}}"
-  prefix: ""
-  disabled: false
-metaSortKey: -1661756604718.5
+metaSortKey: -1667382113614
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

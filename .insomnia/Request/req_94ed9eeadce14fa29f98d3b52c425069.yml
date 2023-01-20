@@ -1,0 +1,31 @@
+_id: req_94ed9eeadce14fa29f98d3b52c425069
+type: Request
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca17693963
+modified: 1671107614274
+created: 1667549895244
+url: "{{base_url}}/me"
+name: Me
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_ccbe77019f794a9dab216146bcd1e05f
+    name: authenticationmethod
+    value: jwt
+    description: ""
+  - id: pair_c39e3d789c5d454ca6082a482e7e7c97
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: bearer
+  token: "{{bearerTokenUser}}"
+metaSortKey: -1661756604673.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,7 +1,7 @@
 _id: req_4e5c01293ff241d1bc7a1884b5e92f0e
 type: Request
-parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcad5491e7e
-modified: 1666003276410
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca17693963
+modified: 1667549897549
 created: 1666003257932
 url: "{{ base_url }}/register"
 name: Register user
@@ -11,7 +11,10 @@ body:
   mimeType: application/json
   text: |-
     {
-
+    	"email": "test@example.com",
+    	"firstname": "Test",
+    	"lastname": "Name-name",
+    	"phone_mobile": "214124124124"
     }
 parameters: []
 headers:

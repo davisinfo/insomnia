@@ -1,32 +1,28 @@
-_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca399878c4
+_id: req_2e4a14e8cadf46488473947e84cecb98
 type: Request
 parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcad5491e7e
-modified: 1668516865247
-created: 1661756604479
-url: "{{ base_url }}/checkout/{{ id }}/contacts"
-name: Updates Contacts for a Checkout
+modified: 1667912847342
+created: 1666877813957
+url: "{{ base_url }}/checkout/{{ id }}/bonuspoints"
+name: Use bonus points for Checkout
 description: ""
-method: PUT
+method: POST
 body:
   mimeType: application/json
   text: |-
-    	{
-    		"contact_type": "delivery",
-    		"firstname": "Test",
-    		"lastname": "Test",
-    		"email": "test@example.com",
-    		"gender": "F"
-    	}
+    {
+    	"bonus_points": 100
+    }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_6e3f9564c503406488b5ba5c0b7d5e5d
+    id: pair_8e73710753834489af6f4de14eaaceba
 authentication:
   type: bearer
   token: "{{bearerToken}}"
   prefix: ""
-metaSortKey: -1661756604491.25
+metaSortKey: -1661756604624.0938
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcadef68fe4
 type: Request
-parentId: fld_9046f87af07c4d9082f6c91f6a9ba5ed
-modified: 1666095595431
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcad5491e7e
+modified: 1668521871059
 created: 1661756604482
 url: "{{ base_url }}/checkout/{{ id }}/contacts"
 name: Add new Contacts for Checkout
@@ -15,13 +15,15 @@ body:
     		"contact_type": "billing",
     		"firstname": "Test",
     		"lastname": "Test",
-    		"email": "test@example.com"
+    		"email": "test@example.com",
+    		"phone": "213124122"
     	},
     	{
     		"contact_type": "delivery",
     		"firstname": "Test",
     		"lastname": "Test",
     		"email": "test@example.com",
+    		"phone": "213124122",
     		"gender": "F"
     	}
     ]
@@ -34,7 +36,7 @@ authentication:
   type: bearer
   token: "{{bearerToken}}"
   prefix: ""
-metaSortKey: -1665002020466.75
+metaSortKey: -1661756604494.625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

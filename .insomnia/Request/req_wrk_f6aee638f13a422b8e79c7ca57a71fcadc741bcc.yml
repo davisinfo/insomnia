@@ -1,7 +1,7 @@
 _id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcadc741bcc
 type: Request
 parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcad5491e7e
-modified: 1666086005900
+modified: 1669040118382
 created: 1661756604577
 url: "{{ base_url }}/checkout"
 name: Add a new Checkout
@@ -16,7 +16,7 @@ body:
 parameters: []
 headers:
   - name: authenticationmethod
-    disabled: true
+    disabled: false
     value: jwt
     id: pair_a629869a838d433581b1a9128aa9bb87
   - name: Content-Type
@@ -24,10 +24,10 @@ headers:
     id: pair_26d8d90e5cc34c7ab705c37dc25c01b9
 authentication:
   type: bearer
-  token: "{{bearerToken}}"
+  token: "{{bearerTokenUser}}"
   prefix: ""
-  disabled: true
-metaSortKey: -1661756604577
+  disabled: false
+metaSortKey: -1661756604681
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

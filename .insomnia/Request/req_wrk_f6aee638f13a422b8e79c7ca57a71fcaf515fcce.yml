@@ -1,9 +1,9 @@
 _id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcaf515fcce
 type: Request
-parentId: fld_9046f87af07c4d9082f6c91f6a9ba5ed
-modified: 1666095593579
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcad5491e7e
+modified: 1666167556952
 created: 1661756604492
-url: "{{ base_url }}/checkout/{{ id }}/articles/11"
+url: "{{ base_url }}/checkout/{{ id }}/articles/21"
 name: Delete Articles for a Checkout
 description: ""
 method: DELETE
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   token: "{{bearerToken}}"
   prefix: ""
-metaSortKey: -1665002020504.25
+metaSortKey: -1661756604505.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

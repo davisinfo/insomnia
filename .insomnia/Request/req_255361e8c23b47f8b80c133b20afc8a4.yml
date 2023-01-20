@@ -1,28 +1,28 @@
-_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca4283f374
+_id: req_255361e8c23b47f8b80c133b20afc8a4
 type: Request
-parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcad5491e7e
-modified: 1667990544885
-created: 1661756604504
-url: "{{ base_url }}/checkout/{{ id }}/articles/27"
-name: Updates Articles for a Checkout
+parentId: fld_97fdb11f48094421acdf5028557ccc48
+modified: 1673854512631
+created: 1670420848884
+url: "{{ base_url }}/export"
+name: New export
 description: ""
-method: PUT
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"amount": -3
+    	"fileType": "xlsx",
+    	"exportType": "Module",
+    	"moduleObject": "Export"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_4340ac355d7c4883b1667c3cfa56930d
 authentication:
   type: bearer
   token: "{{bearerToken}}"
-  prefix: ""
-metaSortKey: -1661756604504
+metaSortKey: -1670420848884
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

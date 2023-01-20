@@ -1,0 +1,26 @@
+_id: env_d164934befd94d98b940c86c13cfcae0
+type: Environment
+parentId: env_2ab29c919ba86692b44f78e8fd54f13e40e6e53f
+modified: 1667382070359
+created: 1667381933905
+name: Workflow
+data:
+  scheme: https
+  base_path: /api/v1.0
+  host: saas-workflowmanager-itp-494.localhost.ibizz.nl
+  username: netrom@ibizz.nl
+  password: Xopo2686
+  id: 16
+  bearerToken: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3NhYXMtd29ya2Zsb3dtYW5hZ2VyLWl0cC00OTQubG9jYWxob3N0LmliaXp6Lm5sIiwiaWF0IjoxNjY3MzgyMDU0Ljk2ODcsImV4cCI6MTY2NzM4NTY1NC42OTA0NjEsIm5iZiI6MTY2NzM4MjA1NC45Njg3MDYsImRhdGEiOnsiaWQiOjIsImZ1bGxuYW1lIjoiTmV0Um9tIiwidXNlcm5hbWUiOiJuZXRyb21AaWJpenoubmwifX0.eCYxXMrZ8_GiEhrlWU32V62lDiyBCYIQ1liUHuTtTBU
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+    - username
+    - password
+    - id
+    - bearerToken
+color: null
+isPrivate: false
+metaSortKey: 3

@@ -1,17 +1,18 @@
 _id: env_996f8b576cab4b2e9e237b9b747fed12
 type: Environment
 parentId: env_2ab29c919ba86692b44f78e8fd54f13e40e6e53f
-modified: 1665983515425
+modified: 1671107695121
 created: 1663916771727
 name: Checkout epic
 data:
   scheme: https
   base_path: /api/v1.0
   host: wingzz-base-v3-itp-324.localhost.ibizz.nl
-  username: ibizz@netrom.ro
-  password: Pufu8667
-  id: 8
-  bearerToken: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3dpbmd6ei1iYXNlLXYzLWl0cC0zMjQubG9jYWxob3N0LmliaXp6Lm5sIiwiaWF0IjoxNjY1OTgzNDg2LjA3NDMxOSwiZXhwIjoxNjY2MTU2Mjg2LjA1ODQ3OCwibmJmIjoxNjY1OTgzNDg2LjA3NDMyNSwiZGF0YSI6eyJjaGVja291dF9pZCI6OH19.R4iPRfpnI80a1yRzW2mFnGEfBte4BLHE67YakTVrMfE
+  username: netrom@ibizz.nl
+  password: Xopo2686
+  id: 21
+  bearerToken: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3dpbmd6ei1iYXNlLXYzLWl0cC0zMjQubG9jYWxob3N0LmliaXp6Lm5sIiwiaWF0IjoxNjY4NTE2ODE1Ljk1MDg5MSwiZXhwIjoxNjY4Njg5NjE1LjkyNzM4NCwibmJmIjoxNjY4NTE2ODE1Ljk1MDg5NywiZGF0YSI6eyJjaGVja291dF9pZCI6MjF9fQ.BY6u5Oc5WNXg-4YU1egaZomCon6PsoQbjyH-9f-C_hg
+  bearerTokenUser: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3dpbmd6ei1iYXNlLXYzLWl0cC0zMjQubG9jYWxob3N0LmliaXp6Lm5sIiwiaWF0IjoxNjcxMTA3NjcwLjQ2OTk0NSwiZXhwIjoxNjcxMTExMjY5LjgzMjExNywibmJmIjoxNjcxMTA3NjcwLjQ2OTk1MiwiZGF0YSI6eyJpZCI6NCwiZnVsbG5hbWUiOiJOZXRSb20iLCJ1c2VybmFtZSI6Im5ldHJvbUBpYml6ei5ubCJ9fQ.d9juVx5YfeRZ5ursn7CbWMJOKFN006XAiq8JL4ROGes
 dataPropertyOrder:
   "&":
     - scheme
@@ -21,6 +22,7 @@ dataPropertyOrder:
     - password
     - id
     - bearerToken
+    - bearerTokenUser
 color: null
 isPrivate: false
-metaSortKey: 1662188733306.5
+metaSortKey: 1

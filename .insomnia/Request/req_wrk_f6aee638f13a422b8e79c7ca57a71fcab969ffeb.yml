@@ -1,7 +1,7 @@
 _id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcab969ffeb
 type: Request
 parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fca38a00715
-modified: 1661756601711
+modified: 1666599243191
 created: 1661756601711
 url: "{{ base_url }}/product"
 name: Get collection of ProductEntities
@@ -12,10 +12,11 @@ parameters: []
 headers:
   - name: authenticationmethod
     disabled: false
-    value: string
+    value: jwt
+    id: pair_a74e9f17e7e6462ea69ab6c8fc987ecc
 authentication:
   type: bearer
-  token: "{{bearerToken}}"
+  token: "{{ bearerTokenUser }}"
   prefix: ""
 metaSortKey: -1661756601711
 isPrivate: false

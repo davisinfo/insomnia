@@ -1,0 +1,26 @@
+_id: env_5c93b3654b0d4b3f9ecc72b309d5b6e7
+type: Environment
+parentId: env_2ab29c919ba86692b44f78e8fd54f13e40e6e53f
+modified: 1674205775341
+created: 1670420522932
+name: Export
+data:
+  scheme: https
+  base_path: /api/v1.0
+  host: wingzz-base-v3-itp-280.localhost.ibizz.nl
+  username: netrom@ibizz.nl
+  password: Xopo2686
+  bearerToken: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3dpbmd6ei1iYXNlLXYzLWl0cC0yODAubG9jYWxob3N0LmliaXp6Lm5sIiwiaWF0IjoxNjc0MjA1NzU5LjE3Mjk5NiwiZXhwIjoxNjc0MjA5MzU4LjUxNDgzLCJuYmYiOjE2NzQyMDU3NTkuMTczLCJkYXRhIjp7ImlkIjoxLCJmdWxsbmFtZSI6Ik5ldFJvbSIsInVzZXJuYW1lIjoibmV0cm9tQGliaXp6Lm5sIn19.EkBBlbftXlxnib1DVoa2HzLD0LaYTmq4MYcAVR86bLA
+  bearerTokenUser: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3dpbmd6ei1iYXNlLXYzLWl0cC0yODAubG9jYWxob3N0LmliaXp6Lm5sIiwiaWF0IjoxNjcxMTEwNzgwLjExOTAzNywiZXhwIjoxNjcxMTE0Mzc5LjczOTI2NiwibmJmIjoxNjcxMTEwNzgwLjExOTA0MywiZGF0YSI6eyJpZCI6MSwiZnVsbG5hbWUiOiJOZXRSb20iLCJ1c2VybmFtZSI6Im5ldHJvbUBpYml6ei5ubCJ9fQ.LFgyNuVvvHHuV3GvYB56PauQnnqljDzbH-sDzxpHlvU
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+    - username
+    - password
+    - bearerToken
+    - bearerTokenUser
+color: null
+isPrivate: false
+metaSortKey: 1.5

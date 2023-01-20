@@ -1,10 +1,10 @@
-_id: req_wrk_f6aee638f13a422b8e79c7ca57a71fcad4b42f3e
+_id: req_f9ead27da5f145f6a9f81655f89adc7d
 type: Request
 parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcad5491e7e
-modified: 1670420629384
-created: 1661756604570
-url: "{{ base_url }}/checkout/{{id}}"
-name: Find Checkout by ID
+modified: 1670420619586
+created: 1667814480772
+url: "{{ base_url }}/checkout/{{id}}/confirm"
+name: Confirm Checkout
 description: ""
 method: GET
 body: {}
@@ -15,7 +15,7 @@ authentication:
   token: "{{bearerToken}}"
   prefix: ""
   disabled: false
-metaSortKey: -1661756604718.5
+metaSortKey: -1661756604731
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

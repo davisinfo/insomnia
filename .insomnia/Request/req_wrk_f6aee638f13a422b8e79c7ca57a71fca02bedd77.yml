@@ -1,7 +1,7 @@
 _id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca02bedd77
 type: Request
-parentId: fld_9046f87af07c4d9082f6c91f6a9ba5ed
-modified: 1666098461684
+parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcad5491e7e
+modified: 1668521864959
 created: 1661756604464
 url: "{{ base_url }}/checkout/{{ id }}/addresses"
 name: Add new Addresses for Checkout
@@ -17,15 +17,17 @@ body:
     		"housenumber": "1",
     		"place": "Amsterdam",
     		"zipcode": "AAAL 123",
-    		"address_type": "home"
+    		"address_type": "home",
+    		"country": "NL"
     	},
     	{
-    		"contact_type": "delivery",
+    		"contact_type": "billing",
     		"street": "Street",
     		"housenumber": "1",
     		"place": "Amsterdam",
     		"zipcode": "AAAL 123",
-    		"address_type": "home"
+    		"address_type": "home",
+    		"country": "NL"
     	}
     ]
 parameters: []
@@ -37,7 +39,7 @@ authentication:
   type: bearer
   token: "{{bearerToken}}"
   prefix: ""
-metaSortKey: -1665002020429.25
+metaSortKey: -1661756604472.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,0 +1,27 @@
+_id: req_3b3ef0a68a75475b8022694fa4dafcf6
+type: Request
+parentId: fld_97fdb11f48094421acdf5028557ccc48
+modified: 1671119340966
+created: 1671117151777
+url: "{{ base_url }}/export/83/download"
+name: Download export file
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_34111b9625104af8963f537e2546fab7
+    name: Content-Type
+    value: application/octet-stream
+    description: ""
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+metaSortKey: -1668521639340.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

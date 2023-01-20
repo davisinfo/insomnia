@@ -1,16 +1,19 @@
 _id: req_wrk_f6aee638f13a422b8e79c7ca57a71fca8dfba875
 type: Request
 parentId: fld_wrk_f6aee638f13a422b8e79c7ca57a71fcad5491e7e
-modified: 1664974093717
+modified: 1670420613398
 created: 1661756604565
 url: "{{ base_url }}/checkout/{{ id }}"
 name: Updates Checkout
 description: ""
-method: PUT
+method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
+    	"payment_id": 2,
+    	"shipping_id": 1,
+    	"contact_id": 1
     }
 parameters: []
 headers:
@@ -25,7 +28,7 @@ authentication:
   type: bearer
   token: "{{bearerToken}}"
   prefix: ""
-metaSortKey: -1661756604565
+metaSortKey: -1661756604455.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
